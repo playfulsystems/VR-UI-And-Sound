@@ -13,7 +13,7 @@ public class SoundOnCollision : MonoBehaviour
         audioSource.pitch = Random.Range(0.8f, 1.2f);
         audioSource.volume = 1;
         audioSource.Play();
-        collisionPoints = 0;
+        collisionPoints = 1;
     }
 
     // play on each collision point
